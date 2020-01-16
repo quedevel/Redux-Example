@@ -9,11 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0.5s linear;
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.CDiv {
+  border: 2px solid;
+  border-radius: 20px;
+}
+.CDiv h1 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+button {
+  width: 100px;
+  height: 60px;
+  border-radius: 15px;
+  margin: 3px;
 }
