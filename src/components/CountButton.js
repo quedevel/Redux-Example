@@ -3,12 +3,8 @@ import { connect } from 'react-redux'
 
 const CountButton = ({dispatch}) => {
 
-    const handlePlus = () => {
-        dispatch({type:'PLUS'})
-    }
-    const handleMinus = () => {
-        dispatch({type:'MINUS'})
-    }
+    const handlePlus = () => { dispatch({type:'PLUS'}) }
+    const handleMinus = () => { dispatch({type:'MINUS'}) }
 
     return (
         <div>
